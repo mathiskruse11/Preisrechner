@@ -17,3 +17,12 @@ function addItemToOrder(name, price) {
 function reset() {
   window.location.reload();
 }
+
+function booking() {
+  alert(
+    "Vielen Dank für Ihre Bestellung! Ihre Bestellung wird zum Verzehr vor Ort bearbeitet. Der gesamte Betrag von " +
+      total +
+      " € wird an der Kasse fällig.",
+  );
+  reset();
+}
