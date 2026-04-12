@@ -26,3 +26,18 @@ function booking() {
   );
   reset();
 }
+
+function delivery() {
+  if (total < 20) {
+    alert(
+      "Der Mindestbestellwert für eine Lieferung beträgt 20 €. Bitte fügen Sie weitere Artikel zu Ihrer Bestellung hinzu.",
+    );
+  } else {
+    alert(
+      "Vielen Dank für Ihre Bestellung! Ihre Bestellung wird zur Lieferung bearbeitet. Der gesamte Betrag von " +
+        total +
+        " € wird bei Lieferung fällig.",
+    );
+    reset();
+  }
+}
