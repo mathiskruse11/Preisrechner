@@ -33,10 +33,11 @@ function delivery() {
       "Der Mindestbestellwert für eine Lieferung beträgt 20 €. Bitte fügen Sie weitere Artikel zu Ihrer Bestellung hinzu.",
     );
   } else {
+    total = total + 2.5;
     alert(
       "Vielen Dank für Ihre Bestellung! Ihre Bestellung wird zur Lieferung bearbeitet. Der gesamte Betrag von " +
         total +
-        " € wird bei Lieferung fällig.",
+        " € inkl. 2,5 € Liefergebühr,  wird bei Lieferung fällig.",
     );
     reset();
   }
