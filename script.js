@@ -21,6 +21,7 @@ function reset() {
 
   const orders = document.getElementById("orders");
   orders.innerHTML = "";
+  refreshAmmount();
 }
 
 function booking() {
